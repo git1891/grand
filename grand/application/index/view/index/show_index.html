@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<style>
+			h1,ul{text-align: center;}
+			ul{list-style: none}
+		</style>
+		<h1>test  -   {$domain}</h1>
+
+		<ul>
+			{volist name="list" id="li"}
+				<li>{$li.name}   --   {$li.pwd}</li>
+			{/volist}
+		</ul>
+		
+	</body>
+</html>
